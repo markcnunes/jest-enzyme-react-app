@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<Form>
+  <form
+    onSubmit={[Function]}
+  >
+    <styled.label>
+      <label
+        className="sc-AxhCb QqhkI"
+      >
+        <styled.span>
+          <span
+            className="sc-AxhUy kNHWOG"
+          >
+            Full Name
+          </span>
+        </styled.span>
+        <styled.input
+          autoFocus={true}
+          disabled={false}
+          name="fullName"
+          type="text"
+        >
+          <input
+            autoFocus={true}
+            className="sc-AxiKw dRwlfD"
+            disabled={false}
+            name="fullName"
+            type="text"
+          />
+        </styled.input>
+      </label>
+    </styled.label>
+    <styled.label>
+      <label
+        className="sc-AxhCb QqhkI"
+      >
+        <styled.span>
+          <span
+            className="sc-AxhUy kNHWOG"
+          >
+            Email Address
+          </span>
+        </styled.span>
+        <styled.input
+          disabled={false}
+          name="email"
+          type="email"
+        >
+          <input
+            className="sc-AxiKw dRwlfD"
+            disabled={false}
+            name="email"
+            type="email"
+          />
+        </styled.input>
+      </label>
+    </styled.label>
+    <styled.label>
+      <label
+        className="sc-AxhCb QqhkI"
+      >
+        <styled.span>
+          <span
+            className="sc-AxhUy kNHWOG"
+          >
+            Favourite Author
+          </span>
+        </styled.span>
+        <ForwardRef
+          disabled={false}
+        >
+          <select
+            name="favouriteAuthor"
+          >
+            <option
+              value="test-author"
+            >
+              Test Author
+            </option>
+          </select>
+        </ForwardRef>
+      </label>
+    </styled.label>
+    <styled.div>
+      <div
+        className="sc-AxirZ gNUgBZ"
+      >
+        <styled.button
+          disabled={false}
+          type="submit"
+        >
+          <button
+            className="sc-AxjAm hriFsm"
+            disabled={false}
+            type="submit"
+          >
+            Sign Up
+          </button>
+        </styled.button>
+      </div>
+    </styled.div>
+  </form>
+</Form>
+`;
